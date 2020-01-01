@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
 
 apt-get update
-apt install -y build-essential cmake clang lld qemu # C/C++ related tools
-
+apt install -y build-essential cmake clang lld   # C/C++ tools
+apt install -y qemu xorriso bochs                # OS tools
